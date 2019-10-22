@@ -1,0 +1,99 @@
+---
+title: "Egypt Project"
+author: "Da Lu & Xuanying He"
+date: "Oct/22/2019 - Present"
+output:
+  html_document:
+    toc: FALSE
+    toc_float: 
+      collapsed: FALSE
+    toc_depth: 3
+    number_sections: FALSE
+---
+<style>
+h1 {font-size: 28px; color: black; font-weight: bold; text-align: left; background-color: White;}
+h1.title {color: black; background-color: white; text-align: center;}
+h2 {font-size: 24px; color: black; font-weight: bold; font-style: normal; background-color: White;}
+h3 {font-size: 20px; color: black; font-weight: bold; font-style: normal; background-color: White;}
+h3.subtitle {background-color: White; text-align: center;}
+h4.date {text-align: center;}
+h4.author {text-align: center;}
+p {font-size: 16px; color: black;}
+table {border: 1px solid black; border-collapse: collapse; margin-top: 10px; margin-bottom: 10px;}
+th {border: 1px solid black; width: auto; height: 50px; font-size: 16px; color: black;}
+td {border: 1px solid black; width: auto; height: 50px; text-align: left; font-size: 16px; color: black; vertical-align: middle; padding: 15px;}
+td.title {text-align: center;}
+ol {font-size: 16px; color: black;}
+ul {font-size: 16px; color: black;}
+img {display: block; margin-top: 10px; margin-bottom: 10px; margin-left: auto; margin-right: auto; width: 600px;}
+span.r {color: red;}
+</style>
+
+---
+
+# Project Description
+*As explained on telephone, I send to you this email to inform about some of the business opportunities in Egypt.*
+
+*The Egyptian government had formed a special authority who's entrusted with reviving and refreshing the slow and old fashion performance of state owned enterprises in several sectors.*
+
+*The intention is to invite capable international entities with advanved tecnology and know-how to takeover these businesses for the purpose to invest into revamping, modifying, modernizing, and operate for a reasonable term that assures good return on such investment.*
+
+*The specific role of the interested international investors depends on the investment opportunity and the sector belonging to it.*
+
+*In our case, for the hospitality sector, it has been described as follows:*
+
+**Description**
+
+- The Hotels & Tourism Holding Company and its subsidiaries, own many assets in prime destinations all over Egypt, that can be developed into 5 stars touristic destinations offering a wide range of services.
+- The company also possesses knowledge of local market needs, as well as capabilities to suggest project ideas and draft preliminary feasibility studies about the kinds of projects that can be implemented (Such as a Conferenc Center in Luxor).
+
+**Business Opportunity**
+
+- Equity Partner for a potential SPV with the mandate of establishing touristic property according to market needs & trends, is needed.
+- The targeted partner should have track record and rich experience in developing and potentially managing hospitality entities (hotels, conference centers, commercial areas, Garages... etc.)
+
+*Examples are the three development areas as attached and listed below:*
+
+**1. New Alamein City**
+
+51.6 Fedan = 216895 Square Meter
+
+Allocated as follows:
+
+- 97600 Square Meter Residential Area
+- 68200 Square Meter for 85 Apartments Buildings
+- 24400 Square Meter for 160 Villas
+- 25000 Square Meter for an Hotel
+- 21700 Square Meter for a Club, Hospital, School, Nursery, Mall, Mosque.
+
+**2. Savoy land in Luxor**
+
+21000 Square Meter
+
+Studies Made For the Following:
+
+- Four-Stars Hotel totaling 200 rooms
+- Two large conference rooms for around 1100 persons
+- Ten smaller meeting rooms for 125 persons each
+- Commercial Mall (3106 square meter)
+- Another commercial bazars area for 49 bazars over 1704 square meter, next to Luxor Governorate
+
+**3. The Historical Continental Destination Down Town Cairo - Opera Square**
+
+- Four Stars Hotel (206 Rooms and Suites)
+- Office Building (32 Offices & 8 Meeting Rooms)
+- Commercial Area & Garage On Three Floors (totaling 29760 Square Meters), including 3000 Square Meter for Shops, and Two Floors Garage for 596 Cars.
+
+*It's for the international investment concern to select the opportunity of interest, evaluate it, and propose their plan for it.*
+
+*I hope you find these opportunities suitable and in good match to your investment strategy and targets.*
+
+
+
+
+
+
+
+
+
+
