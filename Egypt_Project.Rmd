@@ -27,6 +27,7 @@ ol {font-size: 16px; color: black;}
 ul {font-size: 16px; color: black;}
 img {display: block; margin-top: 10px; margin-bottom: 10px; margin-left: auto; margin-right: auto; width: 600px;}
 span.r {color: red;}
+.pic_heading {font-size: 40px; text-align: center;}
 </style>
 
 ---
@@ -89,21 +90,39 @@ Studies Made For the Following:
 *I hope you find these opportunities suitable and in good match to your investment strategy and targets.*
 
 # 可能需要的數據
+**已下载**
+
 - GDP
-- Employment
-- Inflation
+    - GDP-current-price-usd
+    - Real-GDP-Growth
 - Population
+- I/R
+- CPI
+- Exchange Rate
+- Unemployment
+- Exports
+- Imports
+- Total Employment
+- Employement in tourism
+- Real GVA
+    - total
+    - construction
+    - wholesale,retail,hotels
+    - transportation
+
+---
+**需查**
+
 - Age
 - Global Conflict Risk Index (GCRI)
-- Exports
 - Budget
-- Exchange Rate (to USD)
 - General Government Dept
-- Investor COnfidence
-- Key Sector Contributions of Economic
+- Investor Confidence
 - Recent summits
 
+<div class="pic_heading">这是标题</div>
 
+![](/Users/xuanyinghe/Desktop/egypt.png)
 
 
 
