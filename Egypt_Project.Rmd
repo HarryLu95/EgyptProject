@@ -109,23 +109,59 @@ Studies Made For the Following:
     - construction
     - wholesale,retail,hotels
     - transportation
+- Budget
+    - .
+    - .
+    - .
+    - .
+- Debt
 
 ---
+
 **需查**
 
 - Age
 - Global Conflict Risk Index (GCRI)
-- Budget
-- General Government Dept
 - Investor Confidence
 - Recent summits
 
 <div class="pic_heading">这是标题</div>
 
-![](/Users/xuanyinghe/Desktop/egypt.png)
+![](https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6b/9b/69.jpg)
 
+# Data Import
+```{r, message=FALSE, warning=FALSE}
+library(dplyr)
+```
 
+```{r, message=FALSE, warning=FALSE}
+Data_GDP_Current_Prices_USD = read.csv("~/GitHub/EgyptProject/Data_GDP_Current_Prices_USD.csv", encoding="UTF-8")
+#Data_GDP_Current_Prices_USD = Data_GDP_Current_Prices_USD[c("Year", "X.U.FEFF..DownloadDisplay")]
+#colnames(Data_GDP_Current_Prices_USD) = c("Year", "GDP_Current_Prices_USD")
+#Data_GDP_Current_Prices_USD$GDP_Current_Prices_USD = Data_GDP_Current_Prices_USD$GDP_Current_Prices_USD %>% as.character() %>% gsub(",", "", .) %>% as.numeric()
+#Data_GDP_Current_Prices_USD = Data_GDP_Current_Prices_USD %>% arrange(Year)
+#plot(GDP_Current_Prices_USD ~ Year, data = Data_GDP_Current_Prices_USD, type = "l")
 
+visul_1 = function(table) {
+  d = table[,c(10, 1)]
+  colnames(d) = c("Year", "GDP")
+  d$GDP = d$GDP %>% as.character() %>% gsub(",", "", .) %>% as.numeric()
+  d = d %>% arrange(Year)
+  plot(GDP ~ Year, data = d, type = "l")
+}
+visul_1(Data_GDP_Current_Prices_USD)
+```
 
+```{r}
+Data_Real_GDP_Growth = read.csv("~/GitHub/EgyptProject/Data_Real_GDP_Growth.csv", encoding="UTF-8")
+visul_2 = function(table) {
+  d = table[,c(10, 1)]
+  colnames(d) = c("Year", "GDP Growth")
+  d$`GDP Growth` = d$`GDP Growth` %>% as.character() %>% gsub("%", "", .) %>% as.numeric()
+  d = d %>% arrange(Year)
+  plot(`GDP Growth` ~ Year, data = d, type = "l")
+}
+visul_2(Data_Real_GDP_Growth)
+```
 
 
