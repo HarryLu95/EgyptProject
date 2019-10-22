@@ -125,6 +125,10 @@ Studies Made For the Following:
 - Investor Confidence
 - Recent summits
 
+---
+
+World Bank: https://data.worldbank.org/country/egypt-arab-rep
+
 <div class="pic_heading">这是标题</div>
 
 ![](https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6b/9b/69.jpg)
