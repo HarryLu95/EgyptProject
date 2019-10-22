@@ -88,7 +88,20 @@ Studies Made For the Following:
 
 *I hope you find these opportunities suitable and in good match to your investment strategy and targets.*
 
-
+# 可能需要的數據
+- GDP
+- Employment
+- Inflation
+- Population
+- Age
+- Global Conflict Risk Index (GCRI)
+- Exports
+- Budget
+- Exchange Rate (to USD)
+- General Government Dept
+- Investor COnfidence
+- Key Sector Contributions of Economic
+- Recent summits
 
 
 
