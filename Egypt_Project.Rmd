@@ -114,7 +114,7 @@ Studies Made For the Following:
     - .
     - .
     - .
-- Debt ******
+- Debt **
 
 ---
 
@@ -186,7 +186,7 @@ library(dplyr)
 ```
 
 ```{r, message=FALSE, warning=FALSE}
-Data_GDP_Current_Prices_USD = read.csv("~/GitHub/EgyptProject/Data_GDP_Current_Prices_USD.csv", encoding="UTF-8")
+Data_GDP_Current_Prices_USD = read.csv("macroecon_data/Data_GDP_Current_Prices_USD.csv", encoding="UTF-8")
 #Data_GDP_Current_Prices_USD = Data_GDP_Current_Prices_USD[c("Year", "X.U.FEFF..DownloadDisplay")]
 #colnames(Data_GDP_Current_Prices_USD) = c("Year", "GDP_Current_Prices_USD")
 #Data_GDP_Current_Prices_USD$GDP_Current_Prices_USD = Data_GDP_Current_Prices_USD$GDP_Current_Prices_USD %>% as.character() %>% gsub(",", "", .) %>% as.numeric()
@@ -204,7 +204,7 @@ visul_1(Data_GDP_Current_Prices_USD)
 ```
 
 ```{r}
-Data_Real_GDP_Growth = read.csv("~/GitHub/EgyptProject/Data_Real_GDP_Growth.csv", encoding="UTF-8")
+Data_Real_GDP_Growth = read.csv("macroecon_data/Data_Real_GDP_Growth.csv", encoding="UTF-8")
 visul_2 = function(table) {
   d = table[,c(10, 1)]
   colnames(d) = c("Year", "GDP Growth")
