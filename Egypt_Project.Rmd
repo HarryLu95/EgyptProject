@@ -133,6 +133,39 @@ World Bank: https://data.worldbank.org/country/egypt-arab-rep
 
 ![](https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6b/9b/69.jpg)
 
+# Exchange Rate Data
+```{r, message=FALSE, warning=FALSE}
+library(quantmod)
+library(lubridate)
+start = today() - years(70)
+
+getSymbols(Symbols = "CNY=X",
+           from = start,
+           to = today(),
+           periodicity = "daily",
+           return.class = "xts")
+a = get("CNY=X")
+a = a$`CNY=X.Adjusted`
+a = as.data.frame(a)
+Date = rownames(a)
+a = cbind(Date, a)
+write.csv(a, "Data_Exchange_Rate_CNY_USD.csv", row.names = FALSE)
+
+getSymbols(Symbols = "EGP=X",
+           from = start,
+           to = today(),
+           periodicity = "daily",
+           return.class = "xts")
+b = get("EGP=X")
+b = b$`EGP=X.Adjusted`
+b = as.data.frame(b)
+Date = rownames(b)
+b = cbind(Date, b)
+write.csv(b, "Data_Exchange_Rate_EGP_USD.csv", row.names = FALSE)
+```
+
+
+
 # Data Import
 ```{r, message=FALSE, warning=FALSE}
 library(dplyr)
