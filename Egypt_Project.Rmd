@@ -149,7 +149,7 @@ a = a$`CNY=X.Adjusted`
 a = as.data.frame(a)
 Date = rownames(a)
 a = cbind(Date, a)
-write.csv(a, "Data_Exchange_Rate_CNY_USD.csv", row.names = FALSE)
+#write.csv(a, "Data_Exchange_Rate_CNY_USD.csv", row.names = FALSE)
 
 getSymbols(Symbols = "EGP=X",
            from = start,
@@ -161,8 +161,22 @@ b = b$`EGP=X.Adjusted`
 b = as.data.frame(b)
 Date = rownames(b)
 b = cbind(Date, b)
-write.csv(b, "Data_Exchange_Rate_EGP_USD.csv", row.names = FALSE)
+#write.csv(b, "Data_Exchange_Rate_EGP_USD.csv", row.names = FALSE)
 ```
+
+```{r}
+b = b[3:4803,]
+egp_cny = b$`EGP=X.Adjusted` / a$`CNY=X.Adjusted`
+which(a$Date == "2010-01-01")
+plot(egp_cny[2242:4803], type = "l")
+which(a$Date == "2015-01-01")
+plot(egp_cny[3546:4803], type = "l")
+which(a$Date == "2016-01-01")
+plot(egp_cny[3807:4803], type = "l")
+which(a$Date == "2017-01-02")
+plot(egp_cny[4068:4803], type = "l")
+```
+
 
 
 
